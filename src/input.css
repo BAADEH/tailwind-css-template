@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: "vazir";
+        src: local("vazir") url("../public/fonts/vazir/Vazir-Bold.ttf");
+    }
+    @font-face {
+        font-family: "samim";
+        src: url("../public/fonts/samim/Samim-Bold-FD.woff2");
+    }
+}
